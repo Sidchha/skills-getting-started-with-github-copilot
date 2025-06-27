@@ -142,3 +142,43 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+
+.participants-section {
+  margin-top: 12px;
+  padding: 10px;
+  background: #eef2f7;
+  border-radius: 4px;
+}
+
+.participants-list {
+  list-style: disc inside;
+  margin-top: 6px;
+  margin-bottom: 0;
+  padding-left: 18px;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.participant-avatar {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: #1a237e;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 22px;
+  font-weight: bold;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.participant-email {
+  font-size: 14px;
+  color: #333;
+}
